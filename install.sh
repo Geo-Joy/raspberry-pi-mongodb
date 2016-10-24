@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "deb http://repo.mongodb.org/apt/debian/dists/ "$(lsb_release -sc)"/mongodb-org/3.3 main" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.3.list
+echo "deb http://repo.mongodb.org/apt/debian/ "$(lsb_release -sc)"/mongodb-org/3.3 main" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.3.list
 
 sudo apt-get update
 
